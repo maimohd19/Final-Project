@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/contact.css">
+</head>
+<body>
+<!-- Header -->
+<header id="mainHeader" class="border-bottom bg-white w-100 z-3">
+    <!-- التابلت  -->
+  <div class="d-none d-md-flex d-xl-none bg-dark justify-content-between align-items-center gap-4 px-4 py-1">
+    <!-- Contact -->
+    <div class="d-none d-md-flex d-xxl-none align-items-center text-light small fw-medium">
+      <div class="hover-box d-flex align-items-center">
+        <i class="fa-solid fa-phone me-2 fs-2"></i>
+        <span class="d-flex flex-column fs-6">
+          Contact us 24/7&nbsp;
+          <span class="fw-bold">(+92) 3942 7879</span>
+        </span>
+      </div>
+    </div>
+    <div class="d-flex">
+          <!-- Language -->
+    <div class="d-flex align-items-center small text-secondary">
+      <img src="assets/images/english.png" alt="">
+      <div class="dropdown">
+        <a class="btn dropdown-toggle fw-semibold fs-5 border-0 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          English
+        </a>
+        <ul class="dropdown-menu fs-5" style="width: 150px !important;">
+          <li>
+            <a class="dropdown-item" href="#">
+              <img src="assets/images/espanol.png" class="px-2" alt="">
+              Español
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+              <img src="assets/images/portugues.png" class="px-2" alt="">
+              Português
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+              <img src="assets/images/francais.png" class="px-2" alt="">
+              Français
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Currency -->
+    <div class="d-flex align-items-center small text-secondary">
+      <div class="dropdown">
+        <a class="btn dropdown-toggle fw-semibold fs-5 border-0 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          USD
+        </a>
+        <ul class="dropdown-menu" style="width: 150px !important;">
+          <li><a class="dropdown-item" href="#">EUR</a></li>
+          <li><a class="dropdown-item" href="#">BRL</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="d-none d-md-flex justify-content-between align-items-center py-3 px-xxl-5 px-md-3  gap-4 gap-xl-2 gap-xxl-4">
+
+    <!-- Logo -->
+    <div class="d-flex align-items-center">
+      <a href="index.html" class="d-inline-flex align-items-center text-decoration-none">
+        <img src="assets/images/logo.png" class="w-75 w-lg-100" alt="Merto" height="55">
+      </a>
+    </div>
+
+    <!-- Contact -->
+    <div class="d-none d-xl-flex align-items-center text-dark small fw-medium">
+      <div class="hover-box d-flex align-items-center">
+        <i class="fa-solid fa-phone me-2 fs-2"></i>
+        <span class="d-flex flex-column fs-5">
+          Contact us 24/7&nbsp;
+          <span class="fw-bold">(+92) 3942 7879</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="flex-grow-1">
+      <div class="w-100 bg-secondary bg-opacity-25 p-2 rounded-2">
+        <div class="input-group header-search">
+          <button class="btn btn-outline-dark border-0 dropdown-toggle fw-semibold rounded-start-2"
+            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All Categories
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Skincare</a></li>
+            <li><a class="dropdown-item" href="#">Makeup</a></li>
+            <li><a class="dropdown-item" href="#">Hair</a></li>
+            <li><a class="dropdown-item" href="#">Fragrance</a></li>
+          </ul>
+          <input type="search" class="form-control px-4 border-0 border-start border-secondary border-opacity-25 border-2"
+            placeholder="Search for products" aria-label="Search">
+          <button class="btn bg-dark text-light py-3 px-4 rounded-2" type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Language + Currency -->
+    <div class="d-none d-xl-flex align-items-center gap-4">
+      <div class="d-flex align-items-center small text-secondary">
+        <img src="assets/images/english.png" alt="">
+        <div class="dropdown">
+          <a class="btn dropdown-toggle fs-6 border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            English
+          </a>
+          <ul class="dropdown-menu fs-5">
+            <li>
+              <a class="dropdown-item" href="#"><img src="assets/images/espanol.png" class="px-2" alt=""> Español</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><img src="assets/images/portugues.png" class="px-2" alt=""> Português</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><img src="assets/images/francais.png" class="px-2" alt=""> Français</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex align-items-center small text-secondary">
+        <div class="dropdown">
+          <a class="btn dropdown-toggle  fs-6 border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            USD
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">EUR</a></li>
+            <li><a class="dropdown-item" href="#">BRL</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Account + Wishlist + Cart -->
+    <div class="d-flex align-items-center gap-3">
+      <a class="text-decoration-none text-dark small d-sm-inline d-md-none d-xl-inline fs-6" href="#">
+        <i class="fa-regular fa-user me-2 fs-4 fw-semibold"></i>Account
+      </a>
+      <a class="text-decoration-none text-dark small fw-semibold d-none d-md-inline d-xl-none fs-4" href="#">
+        <i class="fa-regular fa-user me-2"></i>
+      </a>
+      <a class="text-decoration-none position-relative icon-link" href="#">
+        <i class="fa-regular fa-heart fs-2"></i>
+        <span class="badge rounded-pill bg-danger position-absolute top-0 start-100 translate-middle p-1 px-2">0</span>
+      </a>
+      <a class="text-decoration-none position-relative icon-link" href="#">
+        <i class="fa-solid fa-cart-shopping fs-2"></i>
+        <span class="badge rounded-pill bg-danger position-absolute top-0 start-100 translate-middle p-1 px-2">0</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Mobile -->
+  <div class="d-flex d-md-none justify-content-around align-items-center gap-5 py-2 px-3">
+    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+      <i class="fa-solid fa-bars text-dark fs-3"></i>
+    </button>
+    <a href="#" class="d-flex align-items-center text-decoration-none">
+      <img src="assets/images/logo.png" class="w-100" alt="Merto" height="55">
+    </a>
+    <a class="text-decoration-none text-dark small fw-semibold d-none d-sm-inline fs-4" href="#">
+      <i class="fa-regular fa-user me-2"></i>Account
+    </a>
+    <a class="text-decoration-none position-relative icon-link" href="#">
+      <i class="fa-solid fa-cart-shopping fs-2"></i>
+      <span class="badge rounded-pill bg-danger position-absolute top-0 start-100 translate-middle p-1 px-2">0</span>
+    </a>
+  </div>
+</header>
+
+<!-- الناف -->
+<nav class="border-bottom">
+  <div class="px-3 px-xxl-5">
+    <div class="d-flex align-items-center g-0 gap-2 gap-xl-0">
+
+      <!-- زرار SHOP BY CATEGORIES + القائمة الأصلية -->
+      <div class="d-none d-md-flex align-items-center ">
+        <div class="d-flex">
+          <button class="btn my-3 rounded-0 fw-bold pe-0" data-bs-toggle="offcanvas" data-bs-target="#mainSidebar">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <button class="btn my-3 d-none d-xxl-flex rounded-0 fw-bold ps-1" data-bs-toggle="offcanvas" data-bs-target="#mainSidebar">
+            SHOP BY CATEGORIES
+          </button>
+        </div>
+
+        <!-- القائمة الأساسية -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mainSidebar" aria-labelledby="mainSidebarLabel">
+          <div class="offcanvas-header bg-dark text-light fs-5">
+            <h5 class="offcanvas-title" id="mainSidebarLabel">
+              <i class="fa-solid fa-bars px-2"></i> SHOP BY CATEGORIES
+            </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsFashion">
+                  <img src="assets/images/icon-menu-1.png" alt=""></i> Fashion
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsPhone">
+                  <img src="assets/images/icon-menu-2.png" alt=""> Phone & Tablet
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsLaptop">
+                  <img src="assets/images/icon-menu-3.png" alt=""> Laptop & Computer
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsCamera">
+                  <img src="assets/images/icon-menu-4.png" alt=""> Tv,Audio & Video
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" >
+                  <img src="assets/images/icon-menu-5.png" alt=""> Camera & Photo
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsHome">
+                  <img src="assets/images/icon-menu-6.png" alt="">Home & Decor
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsBeauty">
+                  <img src="assets/images/icon-menu-7.png" alt=""> Beauty & Health
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsGame">
+                  <img src="assets/images/icon-menu-8.png" alt=""> Game Accessories
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" >
+                  <img src="assets/images/icon-menu-9.png" alt=""> Autopart
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Laptop -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsLaptop" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Laptop & Computer</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Fashion -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsFashion" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Fashion</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Phone -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsPhone" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Phone & tablet</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Camera -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsCamera" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Camera & Photo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>      
+    </div>
+
+      <!-- القائمة الرئيسية (ديسكتوب فقط) -->
+      <div class="d-none d-md-flex gap-4 gap-xl-0">
+        <ul class="nav justify-content-start gap-2 gap-xl-0 ps-lg-3 fs-6 fs-xl-5 nav-main">
+         <li class="nav-item dropdown position-relative">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="index.html" data-bs-toggle="dropdown">
+              Homepages
+            </a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade overflow-auto" >
+              <div class="row">
+                <!-- Cards -->
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-1.jpg" class="card-img-top" alt="Default">
+                    <div class="card-body text-center"><h6 class="mb-0">Default</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-2.jpg" class="card-img-top" alt="Beauty">
+                    <div class="card-body text-center"><h6 class="mb-0">Beauty</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-3.jpg" class="card-img-top" alt="Fashion">
+                    <div class="card-body text-center"><h6 class="mb-0">Fashion</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-4.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-5.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-6.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+
+        <!-- Categories Mega Menu -->
+        <li class="nav-item dropdown position-relative">
+          <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Categories
+          </a>
+          <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="Categorieslist">
+            <div class="row">
+              
+              <!-- cat1 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">SHOP LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 1</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 2</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Brands</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">List Layout</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Collapse Scroll Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Filter Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Banner</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Bottom Banner</a></li>
+                </ul>
+              </div>
+
+              <!-- cat2 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">MORE LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Load More Button</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Infinity Scroll</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Ajax Pagination</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Supermarket</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Furniture</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Electronic</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Autopart</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Cosmetic</a></li>
+                </ul>
+              </div>
+
+              <!-- cat3 -->
+              <div class="col-md-6">
+                <img src="assets/images/mega-shop-layout.png" class="w-100 rounded-3" alt="Shop Layout">
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+          <li class="nav-item dropdown " >
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu p-4">
+              <li><a class="dropdown-item py-3 fs-5" href="#">Simple product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Label Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Dropdown Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Color Swatch</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Variation Thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Group product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">External product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Vertical thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Horizontal thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Summary scrolling</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Flash sale</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Video + 360 degree</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown position-relative">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Pages</a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="pageslist">
+              <div class="row">
+                <div class="w-100">
+                  <div class="row row-cols-1 row-cols-md-4 g-4 " >
+
+                    <!-- HOMEPAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">HOMEPAGES</li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 01</a></li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 02</a></li>
+                        <li><a class="dropdown-item" href="#">Home Furniture</a></li>
+                        <li><a class="dropdown-item" href="#">Home Electronic</a></li>
+                        <li><a class="dropdown-item" href="#">Home Autopart</a></li>
+                        <li><a class="dropdown-item" href="#">Home Cosmetic</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- OTHER PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">OTHER PAGES</li>
+                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                        <li><a class="dropdown-item" href="#">About us</a></li>
+                        <li><a class="dropdown-item" href="#">Contact us</a></li>
+                        <li><a class="dropdown-item" href="#">Coming soon</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- SUPERMARKET SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">SUPERMARKET - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - list</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - scroll</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- FURNITURE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">FURNITURE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- ELECTRONIC SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">ELECTRONIC - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- AUTOMOTIVE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">AUTOMOTIVE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- COSMETICS SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">COSMETICS - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- PRODUCT PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">PRODUCT PAGES</li>
+                        <li><a class="dropdown-item" href="#">Simple product</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Label Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Dropdown Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Color Swatch</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Variation Thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Group product</a></li>
+                        <li><a class="dropdown-item" href="#">External product</a></li>
+                        <li><a class="dropdown-item" href="#">Vertical thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Horizontal thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Summary Scrolling</a></li>
+                        <li><a class="dropdown-item" href="#">Flash Sale</a></li>
+                        <li><a class="dropdown-item" href="#">Video + 360 degree</a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="contact.html">Contact us</a></li>
+          <li class="nav-item"><a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="#">Blog</a></li>
+
+          <li class="nav-item ms-auto d-none d-md-flex align-items-center">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="#">
+              <i class="fa-solid fa-bolt me-2"></i> Best Discount
+            </a>
+          </li>
+          <li class="nav-item d-none d-xxl-flex align-items-center">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="#">
+              <i class="fa-regular fa-clock me-2"></i> Recently viewed
+            </a>
+          </li>        
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<!-- نسخة للموبايل -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+  <div class="offcanvas-header p-0">
+    <button class="btn d-md-none fs-2" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+        <i class="fa-solid fa-bars text-dark"></i>
+    </button>
+    <div class="col-12 col-md-auto d-flex align-items-center">
+        <div class="d-flex w-100  align-items-center justify-content-around py-2">
+            <button class="btn btn-dark text-light fw-bold px-4" data-bs-toggle="collapse" data-bs-target="#categoriesMenu" aria-expanded="false" aria-controls="categoriesMenu">
+                SHOP BY CATEGORIES +
+            </button>
+            <button type="button" class="btn-close m-0 me-5 border-0 border-start px-3 border-3 rounded-0 border-light" data-bs-dismiss="offcanvas"></button>
+        </div>
+    </div>
+  </div>
+  <div class="offcanvas-body py-0">
+    <div class="collapse" id="categoriesMenu">
+        <ul class="list-group w-100  ">
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-1.png" alt="" class="me-2" width="30"> Fashion
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-2.png" alt="" class="me-2" width="30"> Phone & Tablet
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-3.png" alt="" class="me-2" width="30"> Laptop & Computer
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-4.png" alt="" class="me-2" width="30"> TV, Audio - Video
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-5.png" alt="" class="me-2" width="30"> Camera & Photo
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-6.png" alt="" class="me-2" width="30"> Home & Decor
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-7.png" alt="" class="me-2" width="30"> Beauty & Health
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-8.png" alt="" class="me-2" width="30"> Game Accessories
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-9.png" alt="" class="me-2" width="30"> Autopart
+            </li>
+        </ul>
+    </div>  
+    <ul class="nav flex-column fs-5 nav-main">
+         <li class="nav-item dropdown position-relative ">
+            <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle text-danger" href="index.html" data-bs-toggle="dropdown">
+              Homepages
+            </a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade overflow-auto" >
+              <div class="row">
+                <!-- Cards -->
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-1.jpg" class="card-img-top" alt="Default">
+                    <div class="card-body text-center"><h6 class="mb-0">Default</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-2.jpg" class="card-img-top" alt="Beauty">
+                    <div class="card-body text-center"><h6 class="mb-0">Beauty</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-3.jpg" class="card-img-top" alt="Fashion">
+                    <div class="card-body text-center"><h6 class="mb-0">Fashion</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-4.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-5.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-6.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+
+        <!-- Categories Mega Menu -->
+        <li class="nav-item dropdown position-relative">
+          <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Categories
+          </a>
+          <div class="dropdown-menu w-100 d-sm-none p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="Categorieslist">
+            <div class="row">
+              
+              <!-- cat1 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">SHOP LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 1</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 2</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Brands</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">List Layout</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Collapse Scroll Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Filter Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Banner</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Bottom Banner</a></li>
+                </ul>
+              </div>
+
+              <!-- cat2 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">MORE LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Load More Button</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Infinity Scroll</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Ajax Pagination</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Supermarket</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Furniture</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Electronic</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Autopart</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Cosmetic</a></li>
+                </ul>
+              </div>
+
+              <!-- cat3 -->
+              <div class="col-md-6">
+                <img src="assets/images/mega-shop-layout.png" class="w-100 rounded-3" alt="Shop Layout">
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+          <li class="nav-item dropdown position-relative" id="product-li">
+            <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu p-4" id="product-menu">
+              <li><a class="dropdown-item py-3 fs-5" href="#">Simple product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Label Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Dropdown Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Color Swatch</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Variation Thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Group product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">External product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Vertical thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Horizontal thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Summary scrolling</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Flash sale</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Video + 360 degree</a></li>
+            </ul>
+
+          </li>
+
+          <li class="nav-item dropdown position-relative">
+            <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Pages</a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="pageslist">
+              <div class="row">
+                <div class="w-100">
+                  <div class="row row-cols-1 row-cols-md-4 g-4 " >
+
+                    <!-- HOMEPAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">HOMEPAGES</li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 01</a></li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 02</a></li>
+                        <li><a class="dropdown-item" href="#">Home Furniture</a></li>
+                        <li><a class="dropdown-item" href="#">Home Electronic</a></li>
+                        <li><a class="dropdown-item" href="#">Home Autopart</a></li>
+                        <li><a class="dropdown-item" href="#">Home Cosmetic</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- OTHER PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">OTHER PAGES</li>
+                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                        <li><a class="dropdown-item" href="#">About us</a></li>
+                        <li><a class="dropdown-item" href="#">Contact us</a></li>
+                        <li><a class="dropdown-item" href="#">Coming soon</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- SUPERMARKET SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">SUPERMARKET - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - list</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - scroll</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- FURNITURE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">FURNITURE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- ELECTRONIC SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">ELECTRONIC - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- AUTOMOTIVE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">AUTOMOTIVE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- COSMETICS SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">COSMETICS - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- PRODUCT PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">PRODUCT PAGES</li>
+                        <li><a class="dropdown-item" href="#">Simple product</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Label Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Dropdown Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Color Swatch</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Variation Thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Group product</a></li>
+                        <li><a class="dropdown-item" href="#">External product</a></li>
+                        <li><a class="dropdown-item" href="#">Vertical thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Horizontal thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Summary Scrolling</a></li>
+                        <li><a class="dropdown-item" href="#">Flash Sale</a></li>
+                        <li><a class="dropdown-item" href="#">Video + 360 degree</a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link px-3 py-3 fw-semibold" href="contact.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link px-3 py-3 fw-semibold" href="#">Blog</a></li>
+
+          <li class="nav-item ms-auto d-none d-md-flex align-items-center">
+            <a class="nav-link px-3 py-3 fw-semibold" href="#">
+              <i class="fa-solid fa-bolt me-2"></i> Best Discount
+            </a>
+          </li>
+          <li class="nav-item d-none d-md-flex align-items-center">
+            <a class="nav-link px-3 py-3 fw-semibold" href="#">
+              <i class="fa-regular fa-clock me-2"></i> Recently viewed
+            </a>
+          </li>
+    </ul>
+  </div>
+</div>
+
+<!-- contact -->
+<section class="contact-section py-5 ">
+  <div class="container">
+    <!-- Title -->
+    <h2 class="fw-bold mb-3 display-3 text-center">Contact us</h2>
+    <p class="mb-5 opacity-50 text-center">
+      34 Main Street, Los Angeles 9021 <br>
+      United States
+    </p>
+
+    <!-- Contact Info -->
+    <div class="row g-4 mb-5 w-100 w-lg-75 mx-auto">
+      <!-- Customer Service -->
+      <div class="col-6 col-md-3">
+        <div class="contact-box">
+          <i class="bi bi-telephone fs-2 mb-3"></i>
+          <h6 class="fw-bold">Customer service</h6>
+          <p class="mb-1 text-decoration-underline">+92 3942 7879</p>
+          <small class="text-muted opacity-50">Call us from 8am to 8pm</small>
+        </div>
+      </div>
+      <!-- Chat -->
+      <div class="col-6 col-md-3">
+        <div class="contact-box">
+          <i class="bi bi-chat-dots fs-2 mb-3"></i>
+          <h6 class="fw-bold">Chat with us</h6>
+          <p class=" mb-1 text-decoration-underline"><i class="bi bi-circle-fill fs-6 text-success pe-1"></i>  Live Chat</p>
+          <small class="text-muted opacity-50">Daily: 8 am to 11 pm</small>
+        </div>
+      </div>
+      <!-- Email -->
+      <div class="col-6 col-md-3">
+        <div class="contact-box">
+          <i class="bi bi-envelope fs-2 mb-3"></i>
+          <h6 class="fw-bold">Write to us</h6>
+          <p><a href="mailto:contact@example.com" class="text-dark">contact@example.com</a></p>
+        </div>
+      </div>
+      <!-- Social -->
+      <div class="col-6 col-md-3">
+        <div class="contact-box">
+          <i class="bi bi-person-plus fs-2 mb-3"></i>
+          <h6 class="fw-bold">Follow us</h6>
+          <div class="d-flex gap-2">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-tiktok"></i>
+            <i class="bi bi-x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <h5 class="fw-bold mb-4 text-center fs-3">Do you have some questions?</h5>
+    <form class="w-100 w-lg-75 mx-auto">
+      <div class="row g-4 mb-4 ">
+        <div class="col-12 col-md-6">
+          <input type="text" class="form-control py-3" placeholder="Name and Surname *">
+        </div>
+        <div class="col-12 col-md-6">
+          <input type="email" class="form-control py-3" placeholder="Email *">
+        </div>
+      </div>
+      <div class="mb-4">
+        <input type="text" class="form-control py-3" placeholder="Subject *">
+      </div>
+      <div class="mb-4">
+        <textarea rows="4" class="form-control py-3" placeholder="Message"></textarea>
+      </div>
+      <button class="btn btn-dark w-100 py-3">GET IN TOUCH</button>
+    </form>
+  </div>
+</section>
+<section class="map-section">
+  <div class="container-fluid px-0">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27409526736!2d-118.69192040178987!3d34.02016130627454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c0b6d5e8b13b%3A0x8e8f84b4d4d1b4f1!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2seg!4v1693733000000!5m2!1sen!2seg" 
+      width="100%" 
+      height="500" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="stores-section py-5">
+  <div class="container">
+    <!-- Title -->
+    <h3 class="fw-bold text-center mb-5">Stores around the world</h3>
+
+    <div class="row g-4">
+      <!-- Store 1 -->
+      <div class="col-12 col-md-4 text-center text-md-start w-auto">
+        <div class="store-card">
+          <img src="assets/images/story1.jpg" class="img-fluid rounded mb-3 store-img" alt="Los Angeles">
+          <h5 class="fw-bold">Los Angeles</h5>
+          <p class="mb-1">34 Main Street, Los Angeles 9021</p>
+          <p class="mb-1">United States</p>
+          <p class="fw-semibold">+02 1234 567 88</p>
+        </div>
+      </div>
+
+      <!-- Store 2 -->
+      <div class="col-12 col-md-4 text-center text-md-start w-auto">
+        <div class="store-card">
+          <img src="assets/images/story2.jpg" class="img-fluid rounded mb-3 store-img" alt="New York">
+          <h5 class="fw-bold">New York</h5>
+          <p class="mb-1">515 Broadway 10015 New York</p>
+          <p class="mb-1">United States</p>
+          <p class="fw-semibold">+49 1234 567 88</p>
+        </div>
+      </div>
+
+      <!-- Store 3 -->
+      <div class="col-12 col-md-4 text-center text-md-start w-auto">
+        <div class="store-card">
+          <img src="assets/images/storyu3.jpg" class="img-fluid rounded mb-3 store-img" alt="California">
+          <h5 class="fw-bold">California</h5>
+          <p class="mb-1">1000 California St 68114 Omaha</p>
+          <p class="mb-1">United States</p>
+          <p class="fw-semibold">+44 1234 567 88</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer pt-5">
+<div class="container">
+    <!--middle Newsletter -->
+    <div class="col-md-3 border-1 border-secondary border-opacity-25 border-xl-0 d-none d-md-block d-xl-none w-75 mx-auto pb-5">
+    <h6 class="text-white">Let's keep in touch</h6>
+    <div class="input-group mb-3">
+        <input type="email" class="form-control border-secondary" placeholder="enter your email address">
+        <button class="btn btn-dark" type="button"><i class="bi bi-arrow-right"></i></button>
+    </div>
+    <div class="d-flex gap-4 social-icons justify-content-center">
+        <a href="#" class="fs-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="fs-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="fs-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="fs-3"><i class="bi bi-youtube"></i></a>
+    </div>
+    </div>
+    <div class="row gy-4">
+    <!-- Logo + Contact -->
+    <div class="col-md-3">
+        <img src="assets/images/footer-logo.png" class="w-50 pb-3" alt="">
+        <p>29 SE 2nd Ave, Miami<br>Florida 33131, United States</p>
+        <p>Email: info@example.com</p>
+        <p class="fw-bold">(+92) 3942 7879</p>
+    </div>
+
+    <!-- Shopping -->
+    <div class=" col-4 col-md-3 col-xl-2">
+        <h6 class="text-white">SHOPPING</h6>
+        <ul class="list-unstyled text-white">
+        <li class="py-2"><a href="#">Wishlist</a></li>
+        <li class="py-2"><a href="#">Shop by Brand</a></li>
+        <li class="py-2"><a href="#">Offers</a></li>
+        <li class="py-2"><a href="#">Track order</a></li>
+        <li class="py-2"><a href="#">Size Guide</a></li>
+        </ul>
+    </div>
+
+    <!-- Information -->
+    <div class="col-4 col-md-3 col-xl-2">
+        <h6 class="text-white">INFORMATION</h6>
+        <ul class="list-unstyled">
+        <li class="py-2"><a href="#">Track Order</a></li>
+        <li class="py-2"><a href="#">Shipping & Returns</a></li>
+        <li class="py-2"><a href="#">About us</a></li>
+        <li class="py-2"><a href="#">Help</a></li>
+        <li class="py-2"><a href="#">Gift Cards</a></li>
+        </ul>
+    </div>
+
+    <!-- Account -->
+    <div class="col-4 col-md-3 col-xl-2">
+        <h6 class="text-white">ACCOUNT</h6>
+        <ul class="list-unstyled">
+        <li class="py-2"><a href="#">Cart</a></li>
+        <li class="py-2"><a href="#">My account</a></li>
+        <li class="py-2"><a href="#">My orders</a></li>
+        <li class="py-2"><a href="#">Wishlist</a></li>
+        <li class="py-2"><a href="#">Affiliate Program</a></li>
+        </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="col-md-3 border-1 border-secondary border-opacity-25 border-xl-0 d-inline d-md-none d-xl-inline">
+        <h6 class="text-white">Let's keep in touch</h6>
+        <div class="input-group mb-3">
+        <input type="email" class="form-control border-secondary" placeholder="enter your email address">
+        <button class="btn btn-dark" type="button"><i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="d-flex gap-4 social-icons ">
+        <a href="#" class="fs-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="fs-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="fs-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="fs-3"><i class="bi bi-youtube"></i></a>
+        </div>
+    </div>
+    </div>
+
+    <!-- Bottom Box -->
+    <div class="row mt-4 pt-4 bottom-box text-center border border-1 border-secondary border-opacity-25 border-xl-0">
+    <div class="col-md-4 mb-3">
+        <p><i class="bi bi-telephone me-2"></i>Didn't find what you were looking for? <a href="#">Contact Us</a></p>
+    </div>
+    <div class="col-md-4 mb-3">
+        <p><i class="bi bi-emoji-smile me-2"></i>How can we help you today? <a href="#">Help Center</a></p>
+    </div>
+    <div class="col-md-4 mb-3">
+        <p><i class="bi bi-chat-dots me-2"></i>We'd love to hear what you think! <a href="#">Give Feedback</a></p>
+    </div>
+    </div>
+
+    <div class="text-center mt-3">
+    <small>Copyright © Merto. All Rights Reserved</small>
+    </div>
+</div>
+</footer>
+    <!-- زر العودة للأعلى -->
+  <button id="scrollTopBtn" 
+          class="btn btn-dark rounded-3 shadow position-fixed bottom-0 end-0 m-3 d-none" 
+          aria-label="العودة للأعلى">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/script/contact.js"></script>
+</body>
+</html>

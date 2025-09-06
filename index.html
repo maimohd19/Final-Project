@@ -1,0 +1,2405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Merto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="assets/style/index.css">
+</head>
+<body class="bg-white">
+
+<!-- Header -->
+<header id="mainHeader" class="border-bottom bg-white w-100 z-3">
+    <!-- التابلت  -->
+  <div class="d-none d-md-flex d-xl-none bg-dark justify-content-between align-items-center gap-4 px-4 py-1">
+    <!-- Contact -->
+    <div class="d-none d-md-flex d-xxl-none align-items-center text-light small fw-medium">
+      <div class="hover-box d-flex align-items-center">
+        <i class="fa-solid fa-phone me-2 fs-2"></i>
+        <span class="d-flex flex-column fs-6">
+          Contact us 24/7&nbsp;
+          <span class="fw-bold">(+92) 3942 7879</span>
+        </span>
+      </div>
+    </div>
+    <div class="d-flex">
+          <!-- Language -->
+    <div class="d-flex align-items-center small text-secondary">
+      <img src="assets/images/english.png" alt="">
+      <div class="dropdown">
+        <a class="btn dropdown-toggle fw-semibold fs-5 border-0 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          English
+        </a>
+        <ul class="dropdown-menu fs-5" style="width: 150px !important;">
+          <li>
+            <a class="dropdown-item" href="#">
+              <img src="assets/images/espanol.png" class="px-2" alt="">
+              Español
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+              <img src="assets/images/portugues.png" class="px-2" alt="">
+              Português
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+              <img src="assets/images/francais.png" class="px-2" alt="">
+              Français
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Currency -->
+    <div class="d-flex align-items-center small text-secondary">
+      <div class="dropdown">
+        <a class="btn dropdown-toggle fw-semibold fs-5 border-0 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          USD
+        </a>
+        <ul class="dropdown-menu" style="width: 150px !important;">
+          <li><a class="dropdown-item" href="#">EUR</a></li>
+          <li><a class="dropdown-item" href="#">BRL</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="d-none d-md-flex justify-content-between align-items-center py-3 px-xxl-5 px-md-3  gap-4 gap-xl-2 gap-xxl-4">
+
+    <!-- Logo -->
+    <div class="d-flex align-items-center">
+      <a href="index.html" class="d-inline-flex align-items-center text-decoration-none">
+        <img src="assets/images/logo.png" class="w-75 w-lg-100" alt="Merto" height="55">
+      </a>
+    </div>
+
+    <!-- Contact -->
+    <div class="d-none d-xl-flex align-items-center text-dark small fw-medium">
+      <div class="hover-box d-flex align-items-center">
+        <i class="fa-solid fa-phone me-2 fs-2"></i>
+        <span class="d-flex flex-column fs-5">
+          Contact us 24/7&nbsp;
+          <span class="fw-bold">(+92) 3942 7879</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="flex-grow-1">
+      <div class="w-100 bg-secondary bg-opacity-25 p-2 rounded-2">
+        <div class="input-group header-search">
+          <button class="btn btn-outline-dark border-0 dropdown-toggle fw-semibold rounded-start-2"
+            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All Categories
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Skincare</a></li>
+            <li><a class="dropdown-item" href="#">Makeup</a></li>
+            <li><a class="dropdown-item" href="#">Hair</a></li>
+            <li><a class="dropdown-item" href="#">Fragrance</a></li>
+          </ul>
+          <input type="search" class="form-control px-4 border-0 border-start border-secondary border-opacity-25 border-2"
+            placeholder="Search for products" aria-label="Search">
+          <button class="btn bg-dark text-light py-3 px-4 rounded-2" type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Language + Currency -->
+    <div class="d-none d-xl-flex align-items-center gap-4">
+      <div class="d-flex align-items-center small text-secondary">
+        <img src="assets/images/english.png" alt="">
+        <div class="dropdown">
+          <a class="btn dropdown-toggle fs-6 border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            English
+          </a>
+          <ul class="dropdown-menu fs-5">
+            <li>
+              <a class="dropdown-item" href="#"><img src="assets/images/espanol.png" class="px-2" alt=""> Español</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><img src="assets/images/portugues.png" class="px-2" alt=""> Português</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><img src="assets/images/francais.png" class="px-2" alt=""> Français</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex align-items-center small text-secondary">
+        <div class="dropdown">
+          <a class="btn dropdown-toggle  fs-6 border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            USD
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">EUR</a></li>
+            <li><a class="dropdown-item" href="#">BRL</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Account + Wishlist + Cart -->
+    <div class="d-flex align-items-center gap-3">
+      <a class="text-decoration-none text-dark small d-sm-inline d-md-none d-xl-inline fs-6" href="#">
+        <i class="fa-regular fa-user me-2 fs-4 fw-semibold"></i>Account
+      </a>
+      <a class="text-decoration-none text-dark small fw-semibold d-none d-md-inline d-xl-none fs-4" href="#">
+        <i class="fa-regular fa-user me-2"></i>
+      </a>
+      <a class="text-decoration-none position-relative icon-link" href="#">
+        <i class="fa-regular fa-heart fs-2"></i>
+        <span class="badge rounded-pill bg-danger position-absolute top-0 start-100 translate-middle p-1 px-2">0</span>
+      </a>
+      <a class="text-decoration-none position-relative icon-link" href="#">
+        <i class="fa-solid fa-cart-shopping fs-2"></i>
+        <span class="badge rounded-pill bg-danger position-absolute top-0 start-100 translate-middle p-1 px-2">0</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Mobile -->
+  <div class="d-flex d-md-none justify-content-around align-items-center gap-5 py-2 px-3">
+    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+      <i class="fa-solid fa-bars text-dark fs-3"></i>
+    </button>
+    <a href="#" class="d-flex align-items-center text-decoration-none">
+      <img src="assets/images/logo.png" class="w-100" alt="Merto" height="55">
+    </a>
+    <a class="text-decoration-none text-dark small fw-semibold d-none d-sm-inline fs-4" href="#">
+      <i class="fa-regular fa-user me-2"></i>Account
+    </a>
+    <a class="text-decoration-none position-relative icon-link" href="#">
+      <i class="fa-solid fa-cart-shopping fs-2"></i>
+      <span class="badge rounded-pill bg-danger position-absolute top-0 start-100 translate-middle p-1 px-2">0</span>
+    </a>
+  </div>
+</header>
+
+<!-- الناف -->
+<nav class="border-bottom">
+  <div class="px-3 px-xxl-5">
+    <div class="d-flex align-items-center g-0 gap-2 gap-xl-0">
+
+      <!-- زرار SHOP BY CATEGORIES + القائمة الأصلية -->
+      <div class="d-none d-md-flex align-items-center ">
+        <div class="d-flex">
+          <button class="btn my-3 rounded-0 fw-bold pe-0" data-bs-toggle="offcanvas" data-bs-target="#mainSidebar">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <button class="btn my-3 d-none d-xxl-flex rounded-0 fw-bold ps-1" data-bs-toggle="offcanvas" data-bs-target="#mainSidebar">
+            SHOP BY CATEGORIES
+          </button>
+        </div>
+
+        <!-- القائمة الأساسية -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mainSidebar" aria-labelledby="mainSidebarLabel">
+          <div class="offcanvas-header bg-dark text-light fs-5">
+            <h5 class="offcanvas-title" id="mainSidebarLabel">
+              <i class="fa-solid fa-bars px-2"></i> SHOP BY CATEGORIES
+            </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsFashion">
+                  <img src="assets/images/icon-menu-1.png" alt=""></i> Fashion
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsPhone">
+                  <img src="assets/images/icon-menu-2.png" alt=""> Phone & Tablet
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsLaptop">
+                  <img src="assets/images/icon-menu-3.png" alt=""> Laptop & Computer
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsCamera">
+                  <img src="assets/images/icon-menu-4.png" alt=""> Tv,Audio & Video
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" >
+                  <img src="assets/images/icon-menu-5.png" alt=""> Camera & Photo
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsHome">
+                  <img src="assets/images/icon-menu-6.png" alt="">Home & Decor
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsBeauty">
+                  <img src="assets/images/icon-menu-7.png" alt=""> Beauty & Health
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" data-target="#detailsGame">
+                  <img src="assets/images/icon-menu-8.png" alt=""> Game Accessories
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="product.html" class="d-flex align-items-center gap-3 text-dark open-details fs-5 fw-semibold text-decoration-none" >
+                  <img src="assets/images/icon-menu-9.png" alt=""> Autopart
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Laptop -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsLaptop" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Laptop & Computer</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Fashion -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsFashion" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Fashion</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Phone -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsPhone" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Phone & tablet</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- التفاصيل: Camera -->
+        <div class="offcanvas offcanvas-start ms-100 border-start" tabindex="-1" id="detailsCamera" style="width: 400px; left: 300px;">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Camera & Photo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row mb-4">
+              <div class="col-4">
+                <h6 class="fw-bold">BRAND</h6>
+                <ul class="list-unstyled">
+                  <li>Dell</li><li>HP</li><li>Asus</li><li>MSI</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">PRICE</h6>
+                <ul class="list-unstyled">
+                  <li>$0 - $100</li><li>$100 - $200</li><li>$200 - $500</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <h6 class="fw-bold">CHIP</h6>
+                <ul class="list-unstyled">
+                  <li>Core i3</li><li>Core i5</li><li>M1 Series</li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-3">Today's Popular Picks</h6>
+            <div class="row g-3">
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Macbook Pro</p>
+              </div>
+              <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-2">
+                <p class="mb-0">Apple Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>      
+    </div>
+
+      <!-- القائمة الرئيسية (ديسكتوب فقط) -->
+      <div class="d-none d-md-flex gap-4 gap-xl-0">
+        <ul class="nav justify-content-start gap-2 gap-xl-0 ps-lg-3 fs-6 fs-xl-5 nav-main">
+         <li class="nav-item dropdown position-relative">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="index.html" data-bs-toggle="dropdown">
+              Homepages
+            </a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade overflow-auto" >
+              <div class="row">
+                <!-- Cards -->
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-1.jpg" class="card-img-top" alt="Default">
+                    <div class="card-body text-center"><h6 class="mb-0">Default</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-2.jpg" class="card-img-top" alt="Beauty">
+                    <div class="card-body text-center"><h6 class="mb-0">Beauty</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-3.jpg" class="card-img-top" alt="Fashion">
+                    <div class="card-body text-center"><h6 class="mb-0">Fashion</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-4.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-5.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-6.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+
+        <!-- Categories Mega Menu -->
+        <li class="nav-item dropdown position-relative">
+          <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Categories
+          </a>
+          <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="Categorieslist">
+            <div class="row">
+              
+              <!-- cat1 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">SHOP LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 1</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 2</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Brands</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">List Layout</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Collapse Scroll Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Filter Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Banner</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Bottom Banner</a></li>
+                </ul>
+              </div>
+
+              <!-- cat2 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">MORE LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Load More Button</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Infinity Scroll</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Ajax Pagination</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Supermarket</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Furniture</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Electronic</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Autopart</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Cosmetic</a></li>
+                </ul>
+              </div>
+
+              <!-- cat3 -->
+              <div class="col-md-6">
+                <img src="assets/images/mega-shop-layout.png" class="w-100 rounded-3" alt="Shop Layout">
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+          <li class="nav-item dropdown " >
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu p-4">
+              <li><a class="dropdown-item py-3 fs-5" href="#">Simple product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Label Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Dropdown Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Color Swatch</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Variation Thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Group product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">External product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Vertical thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Horizontal thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Summary scrolling</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Flash sale</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Video + 360 degree</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown position-relative">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Pages</a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="pageslist">
+              <div class="row">
+                <div class="w-100">
+                  <div class="row row-cols-1 row-cols-md-4 g-4 " >
+
+                    <!-- HOMEPAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">HOMEPAGES</li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 01</a></li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 02</a></li>
+                        <li><a class="dropdown-item" href="#">Home Furniture</a></li>
+                        <li><a class="dropdown-item" href="#">Home Electronic</a></li>
+                        <li><a class="dropdown-item" href="#">Home Autopart</a></li>
+                        <li><a class="dropdown-item" href="#">Home Cosmetic</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- OTHER PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">OTHER PAGES</li>
+                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                        <li><a class="dropdown-item" href="#">About us</a></li>
+                        <li><a class="dropdown-item" href="#">Contact us</a></li>
+                        <li><a class="dropdown-item" href="#">Coming soon</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- SUPERMARKET SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">SUPERMARKET - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - list</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - scroll</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- FURNITURE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">FURNITURE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- ELECTRONIC SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">ELECTRONIC - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- AUTOMOTIVE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">AUTOMOTIVE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- COSMETICS SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">COSMETICS - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- PRODUCT PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">PRODUCT PAGES</li>
+                        <li><a class="dropdown-item" href="#">Simple product</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Label Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Dropdown Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Color Swatch</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Variation Thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Group product</a></li>
+                        <li><a class="dropdown-item" href="#">External product</a></li>
+                        <li><a class="dropdown-item" href="#">Vertical thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Horizontal thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Summary Scrolling</a></li>
+                        <li><a class="dropdown-item" href="#">Flash Sale</a></li>
+                        <li><a class="dropdown-item" href="#">Video + 360 degree</a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="contact.html">Contact us</a></li>
+          <li class="nav-item"><a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="#">Blog</a></li>
+
+          <li class="nav-item ms-auto d-none d-md-flex align-items-center">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="#">
+              <i class="fa-solid fa-bolt me-2"></i> Best Discount
+            </a>
+          </li>
+          <li class="nav-item d-none d-xxl-flex align-items-center">
+            <a class="nav-link px-1 px-xl-3 py-3 fw-semibold" href="#">
+              <i class="fa-regular fa-clock me-2"></i> Recently viewed
+            </a>
+          </li>        
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<!-- نسخة للموبايل -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+  <div class="offcanvas-header p-0">
+    <button class="btn d-md-none fs-2" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+        <i class="fa-solid fa-bars text-dark"></i>
+    </button>
+    <div class="col-12 col-md-auto d-flex align-items-center">
+        <div class="d-flex w-100  align-items-center justify-content-around py-2">
+            <button class="btn btn-dark text-light fw-bold px-4" data-bs-toggle="collapse" data-bs-target="#categoriesMenu" aria-expanded="false" aria-controls="categoriesMenu">
+                SHOP BY CATEGORIES +
+            </button>
+            <button type="button" class="btn-close m-0 me-5 border-0 border-start px-3 border-3 rounded-0 border-light" data-bs-dismiss="offcanvas"></button>
+        </div>
+    </div>
+  </div>
+  <div class="offcanvas-body py-0">
+    <div class="collapse" id="categoriesMenu">
+        <ul class="list-group w-100  ">
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-1.png" alt="" class="me-2" width="30"> Fashion
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-2.png" alt="" class="me-2" width="30"> Phone & Tablet
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-3.png" alt="" class="me-2" width="30"> Laptop & Computer
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-4.png" alt="" class="me-2" width="30"> TV, Audio - Video
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-5.png" alt="" class="me-2" width="30"> Camera & Photo
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-6.png" alt="" class="me-2" width="30"> Home & Decor
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-7.png" alt="" class="me-2" width="30"> Beauty & Health
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-8.png" alt="" class="me-2" width="30"> Game Accessories
+            </li>
+            <li class="list-group-item d-flex align-items-center border-0 border-bottom border-2 border-opacity-25 border-secondary">
+            <img src="assets/images/icon-menu-9.png" alt="" class="me-2" width="30"> Autopart
+            </li>
+        </ul>
+    </div>  
+    <ul class="nav flex-column fs-5 nav-main">
+         <li class="nav-item dropdown position-relative ">
+            <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle text-danger" href="index.html" data-bs-toggle="dropdown">
+              Homepages
+            </a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade overflow-auto" >
+              <div class="row">
+                <!-- Cards -->
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-1.jpg" class="card-img-top" alt="Default">
+                    <div class="card-body text-center"><h6 class="mb-0">Default</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-2.jpg" class="card-img-top" alt="Beauty">
+                    <div class="card-body text-center"><h6 class="mb-0">Beauty</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-3.jpg" class="card-img-top" alt="Fashion">
+                    <div class="card-body text-center"><h6 class="mb-0">Fashion</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-4.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-5.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card">
+                    <img src="assets/images/mega-home-6.jpg" class="card-img-top" alt="Electronic">
+                    <div class="card-body text-center"><h6 class="mb-0">Electronic</h6></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+
+        <!-- Categories Mega Menu -->
+        <li class="nav-item dropdown position-relative">
+          <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Categories
+          </a>
+          <div class="dropdown-menu w-100 d-sm-none p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="Categorieslist">
+            <div class="row">
+              
+              <!-- cat1 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">SHOP LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 1</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Categories - Style 2</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Brands</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">List Layout</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Collapse Scroll Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Filter Sidebar</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Top Banner</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Bottom Banner</a></li>
+                </ul>
+              </div>
+
+              <!-- cat2 -->
+              <div class="col-md-3">
+                <h6 class="fw-bold mb-3">MORE LAYOUTS</h6>
+                <ul class="list-unstyled fw-semibold">
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Load More Button</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Infinity Scroll</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Ajax Pagination</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Supermarket</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Furniture</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Electronic</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Autopart</a></li>
+                  <li><a href="#" class="dropdown-item py-4 fs-5">Cosmetic</a></li>
+                </ul>
+              </div>
+
+              <!-- cat3 -->
+              <div class="col-md-6">
+                <img src="assets/images/mega-shop-layout.png" class="w-100 rounded-3" alt="Shop Layout">
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+          <li class="nav-item dropdown position-relative" id="product-li">
+            <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu p-4" id="product-menu">
+              <li><a class="dropdown-item py-3 fs-5" href="#">Simple product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Label Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Dropdown Attribute</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Color Swatch</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Variable – Variation Thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Group product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">External product</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Vertical thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Horizontal thumbnail</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Summary scrolling</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Flash sale</a></li>
+              <li><a class="dropdown-item py-3 fs-5" href="#">Video + 360 degree</a></li>
+            </ul>
+
+          </li>
+
+          <li class="nav-item dropdown position-relative">
+            <a class="nav-link px-3 py-3 fw-semibold dropdown-toggle" href="product.html" data-bs-toggle="dropdown">Pages</a>
+            <div class="dropdown-menu w-100 p-4 mega-menu shadow bg-white position-absolute start-0 top-100 rounded-3 animate-fade" id="pageslist">
+              <div class="row">
+                <div class="w-100">
+                  <div class="row row-cols-1 row-cols-md-4 g-4 " >
+
+                    <!-- HOMEPAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">HOMEPAGES</li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 01</a></li>
+                        <li><a class="dropdown-item" href="#">Home Supermarket 02</a></li>
+                        <li><a class="dropdown-item" href="#">Home Furniture</a></li>
+                        <li><a class="dropdown-item" href="#">Home Electronic</a></li>
+                        <li><a class="dropdown-item" href="#">Home Autopart</a></li>
+                        <li><a class="dropdown-item" href="#">Home Cosmetic</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- OTHER PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">OTHER PAGES</li>
+                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                        <li><a class="dropdown-item" href="#">About us</a></li>
+                        <li><a class="dropdown-item" href="#">Contact us</a></li>
+                        <li><a class="dropdown-item" href="#">Coming soon</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- SUPERMARKET SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">SUPERMARKET - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - list</a></li>
+                        <li><a class="dropdown-item" href="#">Shop - scroll</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- FURNITURE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">FURNITURE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- ELECTRONIC SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">ELECTRONIC - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- AUTOMOTIVE SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">AUTOMOTIVE - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- COSMETICS SHOP -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">COSMETICS - SHOP</li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 1</a></li>
+                        <li><a class="dropdown-item" href="#">Top Categories - style 2</a></li>
+                        <li><a class="dropdown-item" href="#">Top Brand</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- PRODUCT PAGES -->
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="fw-bold mb-2">PRODUCT PAGES</li>
+                        <li><a class="dropdown-item" href="#">Simple product</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Label Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Dropdown Attribute</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Color Swatch</a></li>
+                        <li><a class="dropdown-item" href="#">Variable - Variation Thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Group product</a></li>
+                        <li><a class="dropdown-item" href="#">External product</a></li>
+                        <li><a class="dropdown-item" href="#">Vertical thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Horizontal thumbnail</a></li>
+                        <li><a class="dropdown-item" href="#">Summary Scrolling</a></li>
+                        <li><a class="dropdown-item" href="#">Flash Sale</a></li>
+                        <li><a class="dropdown-item" href="#">Video + 360 degree</a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link px-3 py-3 fw-semibold" href="contact.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link px-3 py-3 fw-semibold" href="#">Blog</a></li>
+
+          <li class="nav-item ms-auto d-none d-md-flex align-items-center">
+            <a class="nav-link px-3 py-3 fw-semibold" href="#">
+              <i class="fa-solid fa-bolt me-2"></i> Best Discount
+            </a>
+          </li>
+          <li class="nav-item d-none d-md-flex align-items-center">
+            <a class="nav-link px-3 py-3 fw-semibold" href="#">
+              <i class="fa-regular fa-clock me-2"></i> Recently viewed
+            </a>
+          </li>
+    </ul>
+  </div>
+</div>
+
+<main class="py-0 h-100">
+  <div class="row g-0 g-xl-3">
+      <div class="col-xl-8 p-0">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner rounded-0">
+
+              <!-- Slide 1 -->
+              <div class="carousel-item active h-100 bg-danger" id="sli">
+                <div class="banner-slide h-100 d-flex flex-column justify-content-center text-start text-dark">
+                    <div class="container p-3 p-xl-5 text-light fs-4 display-xl-3">
+                      <p class="slide-para text-uppercase mb-2 opacity-75">Up To 40% off</p>
+                      <h1 class="slide-heading display-6 display-xl-2 fw-bold mb-3">Body Lotion<br> spf lab 50+<br> PA++++</h1>
+                      <a href="product.html" class="slide-btn btn btn-light btn-lg">Shop Now</a>
+                    </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item h-100">
+                <div class="banner-slide h-100 d-flex flex-column justify-content-center text-start text-dark" style="background-image:url('assets/images/slide1-hero.jpg');">
+                    <div class="container p-3 p-xl-5 text-light fs-4 display-xl-3">
+                      <p class="slide-para text-uppercase mb-2 opacity-75">Special Offer</p>
+                      <h1 class="slide-heading display-6 display-xl-2 fw-bold mb-3">Premium Skincare<br> Collection</h1>
+                      <a href="product.html" class="slide-btn btn btn-light btn-lg">Shop Now</a>
+                    </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-item h-100">
+                <div class="banner-slide h-100 d-flex flex-column justify-content-center text-start text-dark" style="background-image:url('assets/images/slide2-hero.jpg');">
+                    <div class="container p-3 p-xl-5 text-light fs-4 display-xl-3">
+                      <p class="slide-para text-uppercase mb-2 opacity-75">New Arrival</p>
+                      <h1 class="slide-heading display-6 display-xl-2 fw-bold mb-3 ">Face Serum<br> With Vitamins</h1>
+                      <a href="product.html" class="slide-btn btn btn-light btn-lg ">Shop Now</a>
+                    </div>
+                </div>
+              </div>
+
+          </div>
+          <button class="carousel-control-prev d-none d-xl-flex" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next d-none d-xl-flex" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </button>
+
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active rounded-circle bg-white border-2 border-white"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" class="rounded-circle bg-white border-2 border-white"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" class="rounded-circle bg-white border-2 border-white"></button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xl-4 d-flex flex-column flex-md-row flex-xl-column  gap-0 p-0 ">
+        <div class="banner-tile p-4 fs-4 rounded-0 w-100 w-md-50"  style="background-image:url('assets/images/makeup.jpg');">
+          <p class="text-uppercase small fw-semibold mb-1">Black Friday</p>
+          <h4 class="fw-bold mb-2 w-50 fs-1">Big Sale Eyeshadow</h4>
+          <p class="text-muted mb-3">Over +100 items</p>
+          <a href="product.html" class="btn btn-outline-dark btn-sm w-25 fs-4">Shop Now</a>
+        </div>
+
+        <div class="banner-tile p-4 position-relative w-100 w-md-50 fs-4 rounded-0" style="background-image:url('assets/images/banner2.jpg');">
+          <p class="text-uppercase small fw-semibold mb-1">New Collection</p>
+          <h4 class="fw-bold mb-2 fs-1 w-50">Puffer Jacket 30% off</h4>
+          <p class="text-muted mb-3">Best jacket in year</p>
+          <span class="badge bg-danger rounded-pill position-absolute top-0 end-0 m-2 fs-6">$29</span>
+          <a href="product.html" class="btn btn-outline-dark btn-sm w-25 fs-4">Shop Now</a>
+        </div>
+      </div>
+  </div>
+  
+<section class="py-4 container px-0">
+  <div class="row text-center text-md-start g-3">
+
+    <!-- Item -->
+    <div class="col-6 col-md d-flex flex-column flex-md-row align-items-center feature-item p-2">
+      <i class="bi bi-truck fs-1 text-secondary me-md-3"></i>
+      <div>
+        <h6 class="fw-bold mb-0">Fast, Free Shipping</h6>
+        <small class="text-muted">On order over $50</small>
+      </div>
+    </div>
+
+    <!-- Item -->
+    <div class="col-6 col-md d-flex flex-column flex-md-row align-items-center feature-item p-2">
+      <i class="bi bi-clock fs-1 text-secondary me-md-3"></i>
+      <div>
+        <h6 class="fw-bold mb-0">Next Day Delivery</h6>
+        <small class="text-muted">Free – spend over $99</small>
+      </div>
+    </div>
+
+    <!-- Item -->
+    <div class="col-6 col-md d-flex flex-column flex-md-row align-items-center feature-item p-2">
+      <i class="bi bi-tags fs-1 text-secondary me-md-3"></i>
+      <div>
+        <h6 class="fw-bold mb-0">Low Price Guarantee</h6>
+        <small class="text-muted">We offer competitive prices</small>
+      </div>
+    </div>
+
+    <!-- Item -->
+    <div class="col-6 col-md d-flex flex-column flex-md-row align-items-center feature-item p-2">
+      <i class="bi bi-hand-thumbs-up fs-1 text-secondary me-md-3"></i>
+      <div>
+        <h6 class="fw-bold mb-0">Quality Guarantee</h6>
+        <small class="text-muted">We Guarantee Our Products</small>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- سكشن الكاتيجوريز -->
+<section class="container px-0 py-4">
+
+  <div class="swiper productSwiper">
+    <div class="swiper-wrapper">
+      <!-- كاتيجوري -->
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cosmetic-cat-7.jpg" class="img-fluid w-100 h-100" alt="Makeup" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">Makeup</p>
+        </a>
+      </div>
+
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cat-4.jpg" class="img-fluid w-100 h-100" alt="Autopart" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">Autopart</p>
+        </a>
+      </div>
+
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cat-5.jpg" class="img-fluid w-100 h-100" alt="Laptop" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">Laptop & Computer</p>
+        </a>
+      </div>
+
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cat-6.jpg" class="img-fluid w-100 h-100" alt="Fashion" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">Fashion</p>
+        </a>
+      </div>
+
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cat-7.jpg" class="img-fluid w-100 h-100" alt="Headphones" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">Headphones</p>
+        </a>
+      </div>
+
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cat-8.jpg" class="img-fluid w-100 h-100" alt="Handbags" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">Handbags</p>
+        </a>
+      </div>
+
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cat-1.jpg" class="img-fluid w-100 h-100" alt="SmartPhone" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">SmartPhone</p>
+        </a>
+      </div>
+
+      <div class="swiper-slide text-center">
+        <a href="product.html" class="category-item text-decoration-none text-dark">
+          <div class="position-relative mx-auto rounded-circle overflow-hidden d-flex align-items-center justify-content-center"
+               style="width:160px; height:160px;">
+            <img src="assets/images/cat-2.jpg" class="img-fluid w-100 h-100" alt="Home & Decor" style="object-fit:cover;">
+            <div class="overlay d-flex justify-content-center align-items-center">
+              <i class="bi bi-arrow-right fs-3 text-white"></i>
+            </div>
+          </div>
+          <p class="mt-2">Home & Decor</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- سكشن الخصم -->
+  <section class="py-4 container mx-auto">
+      <div class="border border-dark text-center py-md-3 p-xl-3 rounded fs-6 fs-xl-3">
+        <span>Super discount for your <strong>first purchase</strong> </span>
+        <span class="text-danger fw-bold">COUPON25</span>
+        <span class="text-muted"> Use discount code in the checkout!</span>
+      </div>
+  </section>
+
+ <!-- Flash Deals  -->
+  <section class="container my-5">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-4">
+      <h4 class="fw-bold">Flash Deals</h4>
+      <div class="d-flex align-items-center gap-2">
+        <span class="fw-bold text-secondary opacity-50">Ends in:</span>
+        <div class="d-flex gap-1 justify-content-center">
+          <div id="hours" class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width:40px; height:40px;"></div>
+          <div id="minutes" class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width:40px; height:40px;"></div>
+          <div id="seconds" class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width:40px; height:40px;"></div>
+        </div>
+        <div class="border-0 border-start border-2 border-secondary border-opacity-25 ps-3 d-none d-md-flex">
+          <a href="product.html" class="text-secondary opacity-75"> See All Product</a>
+        </div>
+      </div>
+    </div>
+    <div class="position-relative" style="overflow:hidden;">
+      <div class="d-flex slider-wrapper" style="transition: transform 0.5s ease;">
+        <!-- Navigation Arrows -->
+        <button id="prevBtn" class="btn btn-light position-absolute top-50 start-0 translate-middle-y z-1"><i class="fa-solid fa-chevron-left"></i></button>
+        <!-- Card 1 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-35%</span>
+            <img src="assets/images/slider1.jpg" class="card-img-top" alt="Product 1">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Laptop Asus Vivobook</p>
+              <h6 class="fw-bold mb-2">$999 
+                <small class="text-muted text-decoration-line-through">$1326</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-20%</span>
+            <img src="assets/images/slider2.jpg" class="card-img-top" alt="Product 2">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Gaming Mouse</p>
+              <h6 class="fw-bold mb-2">$45 
+                <small class="text-muted text-decoration-line-through">$56</small>
+              </h6>
+              <div class="fs-4">★★★★★</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-15%</span>
+            <img src="assets/images/slider3.jpg" class="card-img-top" alt="Product 3">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Wireless Keyboard</p>
+              <h6 class="fw-bold mb-2">$60 
+                <small class="text-muted text-decoration-line-through">$70</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-10%</span>
+            <img src="assets/images/slider4.jpg" class="card-img-top" alt="Product 4">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Gaming Chair</p>
+              <h6 class="fw-bold mb-2">$150 
+                <small class="text-muted text-decoration-line-through">$170</small>
+              </h6>
+              <div class="fs-4">★★★★★</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-12%</span>
+            <img src="assets/images/slider5.jpg" class="card-img-top" alt="Product 5">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Gaming Headset</p>
+              <h6 class="fw-bold mb-2">$75 
+                <small class="text-muted text-decoration-line-through">$85</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-18%</span>
+            <img src="assets/images/slider6.jpg" class="card-img-top" alt="Product 6">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Smart Watch</p>
+              <h6 class="fw-bold mb-2">$120 
+                <small class="text-muted text-decoration-line-through">$145</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 7 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-25%</span>
+            <img src="assets/images/slider7.jpg" class="card-img-top" alt="Product 7">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Bluetooth Speaker</p>
+              <h6 class="fw-bold mb-2">$90 
+                <small class="text-muted text-decoration-line-through">$120</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <div class="card position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-30%</span>
+            <img src="assets/images/slider8.jpg" class="card-img-top" alt="Product 8">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Tablet Pro 10</p>
+              <h6 class="fw-bold mb-2">$299 
+                <small class="text-muted text-decoration-line-through">$399</small>
+              </h6>
+              <div class="fs-4">★★★★★</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation Arrows -->
+      <button id="nextBtn" class="btn btn-light position-absolute top-50 end-0 translate-middle-y"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="ps-3 d-block d-md-none">
+      <a href="product.html" class="d-block text-center text-secondary opacity-75">See All Product</a>
+    </div>
+  </section>
+
+  <!-- Banners Section -->
+  <section class="container my-5">
+    <div class="row g-3 g-md-1 g-xxl-3">
+      
+      <div class="col-md-3">
+        <div class="banner position-relative rounded overflow-hidden ratio ratio-4x3">
+          <div class="banner-bg bg-dark bg-opacity-10" style="background-image: url('assets/images/car-bg.jpg'); background-size: cover; background-position: center;"></div>
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end lh-1 fst-italic fs-2 fs-md-3 fs-lg-2 fw-bold align-items-center text-white text-center p-3">
+            <p class="mb-0">SALE 10% OFF
+            <p class="mb-0">TIRES MICHELIN</p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="banner position-relative rounded overflow-hidden ratio ratio-4x3">
+          <div class="banner-bg" style="background-image: url('assets/images/furniture-bg.jpg'); background-size: cover; background-position: center;"></div>
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-start lh-sm fst-italic fs-2 fs-md-6 fs-lg-2 fw-bold align-items-center text-white text-center p-3">
+            <p class="mb-1 text-danger fs-5">NEW COLLECTION
+            <p class="mb-0 text-dark">Sofa Crafted in UK</p></p>
+            <a href="product.html" class="text-dark fs-6 ">Shop now--</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="banner position-relative rounded overflow-hidden ratio ratio-4x3">
+          <div class="banner-bg" style="background-image: url('assets/images/cosmetic-bg.jpg'); background-size: cover; background-position: center;"></div>
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column lh-1 justify-content-end fst-italic fs-2 fs-md-6 fs-lg-2 fw-bold align-items-center text-white text-center p-3">
+            <p class="mb-1">Steals under $25
+            <p class="mb-0 opacity-25 font-damion">Beauty</p></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- New Arrivals Section -->
+  <section class="container my-5">
+    <div class="row d-flex">
+      <!-- Sidebar Tabs -->
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-xl-start text-center text-xl-start py-3">
+        <h3 class="mb-4 fw-bold justify-self-center">New Arrivals</h3>
+        
+        <div class="d-flex flex-column flex-xl-row ">
+          <ul class="nav d-flex nav-pills fs-6 fw-semibold justify-content-center" id="productTabs" role="tablist" aria-orientation="vertical">
+            <li class="nav-item" role="presentation">
+              <a href="product.html" class="nav-link text-dark text-decoration-underline" id="fashion-tab" data-bs-toggle="pill" data-bs-target="#fashion" type="button" role="tab">Fashion</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="product.html" class="nav-link text-dark text-decoration-underline" id="electronics-tab" data-bs-toggle="pill" data-bs-target="#electronics" type="button" role="tab">Electronics</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="product.html" class="nav-link text-dark text-decoration-underline" id="home-tab" data-bs-toggle="pill" data-bs-target="#home" type="button" role="tab">Home & Decor</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="product.html" class="nav-link text-dark text-decoration-underline" id="Beauty-tab" data-bs-toggle="pill" data-bs-target="#beauty" type="button" role="tab">Beauty & Health</a>
+            </li>
+          </ul>
+
+        <div class="border-0 border-start border-2 border-secondary border-opacity-25 ps-3 d-none d-xxl-flex">
+          <a href="product.html" class="text-secondary opacity-75"> See All Product</a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Tabs Content -->
+      <div class="d-flex flex-wrap">
+        <div class="tab-content" id="productTabsContent">
+          <!-- Fashion Tab -->
+          <div class="tab-pane fade show active" id="fashion" role="tabpanel">
+            <div class="row ">
+              <div class="col-12 col-sm-6 col-xl-4 p-0">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/fashion-5-300x300.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 p-0">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/fashion-16-300x300.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 p-0">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/fashion-3-300x300.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 p-0">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/fashion-1-300x300.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 p-0">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/fashion-6-300x300.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4 p-0">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/fashion-9-300x300.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Electronics Tab -->
+          <div class="tab-pane fade" id="electronics" role="tabpanel">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/phone1.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/phone2.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/cat-1.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/phone4.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/phone5.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/phone3.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Home Tab -->
+          <div class="tab-pane fade" id="home" role="tabpanel">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/home1.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/home2.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/home3.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/home4.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/home5.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/home6.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- beauty Tab -->
+          <div class="tab-pane fade" id="beauty" role="tabpanel">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/beauty1.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class=" mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/beauty2.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/beauty3.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/beauty4.jpg" class="img-fluid" style="width:160px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/beauty5.jpg" class="img-fluid" style="width:160px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-xl-4">
+                <div class="product-card border position-relative px-3 py-5 d-flex flex-column" style="overflow:visible; transition:all 0.3s ease;">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/beauty6.jpg" class="img-fluid" style="width:190px; height:auto; object-fit:cover;" alt="منتج 1">
+                        <div class="ms-3">
+                            <h6 class="mb-1">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+                            <p class="fw-bold mb-1">$148</p>
+                            <div class="fs-4 mb-2" style="font-size:14px;">
+                                ★★★★☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extra-content d-flex gap-2 p-3 bg-white shadow">
+                        <button class="btn btn-dark w-100 mb-2">+ Add to Cart</button>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-search"></i></button>
+                            <button class="btn btn-light border flex-fill"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ps-3 d-block d-xl-none">
+        <a href="#" class="d-block text-center text-secondary opacity-75">See All Product</a>
+      </div>
+    </div>
+  </section>
+  <!-- image filter -->
+  <section class="container py-5">
+    <div class="row align-items-center position-relative">
+      <div class="col-lg-8">
+        <div id="main-image" 
+            class="d-flex justify-content-center align-items-center position-relative" 
+            style="
+              background: url('assets/images/imgfilter1.jpg') no-repeat center center;
+              background-size: contain;
+              height: 600px;">
+          <span class="badge bg-danger position-absolute top-0 start-0 translate-middle-y px-3 py-2" style="font-size: 14px;">
+            -30%
+          </span>
+        </div>
+      </div>
+      <div class="col-md-2 w-75 w-md-50-img mx-auto bg-secondary bg-opacity-25 rounded-3 p-3 p-xl-5 position-relative position-md-absolute end-0">
+        <h3 class="fw-bold mb-3">Athletics Embroidered Relaxed Hoodie</h3>
+        <ul class="list-unstyled mb-3">
+          <li class="mb-1 text-success"><i class="bi bi-check2"></i> 64% cotton, 36% polyester</li>
+          <li class="mb-1 text-success"><i class="bi bi-check2"></i> Do not dry clean</li>
+          <li class="mb-1 text-success"><i class="bi bi-check2"></i> Machine wash</li>
+        </ul>
+        <div class="mb-3">
+          <span class="fw-bold fs-4">$89</span>
+          <span class="text-muted text-decoration-line-through">$120</span>
+        </div>
+
+        <div class="d-flex gap-2 mb-4">
+          <div class="thumb active" style="background:url('assets/images/imgfilter1.jpg') center center / cover no-repeat; width:60px; height:60px; cursor:pointer; border-radius:6px;"></div>
+          <div class="thumb" style="background:url('assets/images/imgfilter2.jpg') center center / cover no-repeat; width:60px; height:60px; cursor:pointer; border-radius:6px;"></div>
+          <div class="thumb" style="background:url('assets/images/imgfilter3.jpg') center center / cover no-repeat; width:60px; height:60px; cursor:pointer; border-radius:6px;"></div>
+          <div class="thumb" style="background:url('assets/images/imgfilter4.jpg') center center / cover no-repeat; width:60px; height:60px; cursor:pointer; border-radius:6px;"></div>
+        </div>
+
+        <button class="btn btn-dark w-100 py-3">BUY NOW</button>
+      </div>
+    </div>
+  </section>
+<!-- best selling -->
+  <section class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h4 class="fw-bold fs-2">Best Selling</h4>
+      <div class="border-0 border-start border-2 border-secondary border-opacity-25 ps-3 d-none d-xl-flex">
+        <a href="product.html" class="text-secondary opacity-75"> See All Product</a>
+      </div>
+    </div>
+    <div class="position-relative" style="overflow:hidden;">
+      <div class="d-flex slider-wrapper" style="transition: transform 0.5s ease;">
+        <!-- Navigation Arrows -->
+        <button id="prevBtn" class="btn btn-light position-absolute top-50 start-0 translate-middle-y z-1"><i class="fa-solid fa-chevron-left"></i></button>
+        <!-- Card 1 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-35%</span>
+            <img src="assets/images/slider1.jpg" class="card-img-top" alt="Product 1">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Laptop Asus Vivobook</p>
+              <h6 class="fw-bold mb-2">$999 
+                <small class="text-muted text-decoration-line-through">$1326</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-20%</span>
+            <img src="assets/images/slider2.jpg" class="card-img-top" alt="Product 2">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Gaming Mouse</p>
+              <h6 class="fw-bold mb-2">$45 
+                <small class="text-muted text-decoration-line-through">$56</small>
+              </h6>
+              <div class="fs-4">★★★★★</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-15%</span>
+            <img src="assets/images/slider3.jpg" class="card-img-top" alt="Product 3">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Wireless Keyboard</p>
+              <h6 class="fw-bold mb-2">$60 
+                <small class="text-muted text-decoration-line-through">$70</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-10%</span>
+            <img src="assets/images/slider4.jpg" class="card-img-top" alt="Product 4">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Gaming Chair</p>
+              <h6 class="fw-bold mb-2">$150 
+                <small class="text-muted text-decoration-line-through">$170</small>
+              </h6>
+              <div class="fs-4">★★★★★</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-12%</span>
+            <img src="assets/images/slider5.jpg" class="card-img-top" alt="Product 5">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Gaming Headset</p>
+              <h6 class="fw-bold mb-2">$75 
+                <small class="text-muted text-decoration-line-through">$85</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-18%</span>
+            <img src="assets/images/slider6.jpg" class="card-img-top" alt="Product 6">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Smart Watch</p>
+              <h6 class="fw-bold mb-2">$120 
+                <small class="text-muted text-decoration-line-through">$145</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+        <!-- Card 7 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-25%</span>
+            <img src="assets/images/slider7.jpg" class="card-img-top" alt="Product 7">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Bluetooth Speaker</p>
+              <h6 class="fw-bold mb-2">$90 
+                <small class="text-muted text-decoration-line-through">$120</small>
+              </h6>
+              <div class="fs-4">★★★★☆</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+        <!-- Card 8 -->
+        <div class="col-6 col-md-4 col-lg-3 px-2">
+          <a href="product-details.html" class="card text-decoration-none position-relative overflow-hidden" style="cursor:pointer;">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-30%</span>
+            <img src="assets/images/slider8.jpg" class="card-img-top" alt="Product 8">
+            <div class="card-body text-center">
+              <p class="mb-1 small text-muted">Tablet Pro 10</p>
+              <h6 class="fw-bold mb-2">$299 
+                <small class="text-muted text-decoration-line-through">$399</small>
+              </h6>
+              <div class="fs-4">★★★★★</div>
+            </div>
+            <div class="position-absolute top-0 end-0  d-flex flex-column gap-2 pt-4 px-2 hover-actions" style="opacity:0; transition:0.3s;">
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="btn btn-light rounded-circle shadow" data-bs-toggle="tooltip" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Navigation Arrows -->
+      <button id="nextBtn" class="btn btn-light position-absolute top-50 end-0 translate-middle-y"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="ps-3 d-block d-xl-none">
+      <a href="product.html" class="d-block text-center text-secondary opacity-75">See All Product</a>
+    </div>
+  </section>
+  <!-- blog section -->
+  <section class="container my-5">
+    <h3 class="mb-4 fw-bold">From Our Blog</h3>
+    <div class="swiper blogSwiper">
+      <div class="swiper-wrapper d-flex">
+        <!-- Blog Card 1 -->
+        <div class="swiper-slide">
+          <div class="card blog-card">
+            <img src="assets/images/blog-1.jpg" class="card-img-top" alt="Blog 1">
+            <div class="card-body">
+              <p class="blog-category">BEAUTY & FASHION — By Myoui Mina</p>
+              <h5 class="card-title">Weekday Outfit Inspiration</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="read-more-btn">READ MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="swiper-slide">
+          <div class="card blog-card">
+            <img src="assets/images/blog-2.jpg" class="card-img-top" alt="Blog 2">
+            <div class="card-body">
+              <p class="blog-category">COSMETICS — By Myoui Mina</p>
+              <h5 class="card-title">100% Pure & Natural Sage Essential Oil</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="read-more-btn">READ MORE</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="swiper-slide">
+          <div class="card blog-card">
+            <img src="assets/images/blog-3.jpg" class="card-img-top" alt="Blog 3">
+            <div class="card-body">
+              <p class="blog-category">ELECTRONICS — By Myoui Mina</p>
+              <h5 class="card-title">Tips for Cleaning Desktop & Laptop</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="read-more-btn">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Card 4 -->
+
+        <div class="swiper-slide">
+          <div class="card blog-card">
+            <img src="assets/images/blog-4.jpg" class="card-img-top" alt="Blog 4">
+            <div class="card-body">
+              <p class="blog-category">TECH — By Myoui Mina</p>
+              <h5 class="card-title">Latest Tech Trends 2025</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="read-more-btn">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Card 5 -->
+
+        <div class="swiper-slide">
+          <div class="card blog-card">
+            <img src="assets/images/blog-5-1.jpg" class="card-img-top" alt="Blog 5">
+            <div class="card-body">
+              <p class="blog-category">TRAVEL — By Myoui Mina</p>
+              <h5 class="card-title">Top 10 Destinations</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="read-more-btn">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Card 6 -->
+
+        <div class="swiper-slide">
+          <div class="card blog-card">
+            <img src="assets/images/blog-6.jpg" class="card-img-top" alt="Blog 6">
+            <div class="card-body">
+              <p class="blog-category">FOOD — By Myoui Mina</p>
+              <h5 class="card-title">Healthy Recipes to Try</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="read-more-btn">READ MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next bg-white p-4 rounded-2 d-none d-xl-flex"></div>
+      <div class="swiper-button-prev bg-white p-4 rounded-2 d-none d-xl-flex"></div>
+    </div>
+  </section>
+  <!-- Search section -->
+  <section class="search-section py-5 text-center">
+    <div class="container py-5">
+      <h4 class="fw-bold mb-4 fs-3">Looking for something else?</h4>
+      <div class="input-group mx-auto mb-3" style="max-width: 500px;">
+        <input type="text" class="form-control py-2" placeholder="Search for products...">
+        <button class="btn btn-dark" type="button"><i class="bi bi-search text-dark"></i></button>
+      </div>
+      <div class="d-flex flex-wrap justify-content-center gap-3 w-100 w-xl-50 mx-xl-auto">
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">smartphone</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">tablet</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">controller</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">furniture</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">laptop</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">playstation</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">womens fashion</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none border-2 border-end border-secondary border-opacity-25 pe-3">home & decor</a>
+        <a href="product.html" class="text-dark fw-bold text-decoration-none">camera</a>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer pt-5">
+    <div class="container">
+      <!--middle Newsletter -->
+      <div class="col-md-3 border-1 border-secondary border-opacity-25 border-xl-0 d-none d-md-block d-xl-none w-75 mx-auto pb-5">
+        <h6 class="text-white">Let's keep in touch</h6>
+        <div class="input-group mb-3">
+          <input type="email" class="form-control border-secondary" placeholder="enter your email address">
+          <button class="btn btn-dark" type="button"><i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="d-flex gap-4 social-icons justify-content-center">
+          <a href="#" class="fs-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="fs-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="fs-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="fs-3"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <!-- Logo + Contact -->
+        <div class="col-md-3">
+          <img src="assets/images/footer-logo.png" class="w-50 pb-3" alt="">
+          <p>29 SE 2nd Ave, Miami<br>Florida 33131, United States</p>
+          <p>Email: info@example.com</p>
+          <p class="fw-bold">(+92) 3942 7879</p>
+        </div>
+
+        <!-- Shopping -->
+        <div class=" col-4 col-md-3 col-xl-2">
+          <h6 class="text-white">SHOPPING</h6>
+          <ul class="list-unstyled text-white">
+            <li class="py-2"><a href="#">Wishlist</a></li>
+            <li class="py-2"><a href="#">Shop by Brand</a></li>
+            <li class="py-2"><a href="#">Offers</a></li>
+            <li class="py-2"><a href="#">Track order</a></li>
+            <li class="py-2"><a href="#">Size Guide</a></li>
+          </ul>
+        </div>
+
+        <!-- Information -->
+        <div class="col-4 col-md-3 col-xl-2">
+          <h6 class="text-white">INFORMATION</h6>
+          <ul class="list-unstyled">
+            <li class="py-2"><a href="#">Track Order</a></li>
+            <li class="py-2"><a href="#">Shipping & Returns</a></li>
+            <li class="py-2"><a href="#">About us</a></li>
+            <li class="py-2"><a href="#">Help</a></li>
+            <li class="py-2"><a href="#">Gift Cards</a></li>
+          </ul>
+        </div>
+
+        <!-- Account -->
+        <div class="col-4 col-md-3 col-xl-2">
+          <h6 class="text-white">ACCOUNT</h6>
+          <ul class="list-unstyled">
+            <li class="py-2"><a href="#">Cart</a></li>
+            <li class="py-2"><a href="#">My account</a></li>
+            <li class="py-2"><a href="#">My orders</a></li>
+            <li class="py-2"><a href="#">Wishlist</a></li>
+            <li class="py-2"><a href="#">Affiliate Program</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-md-3 border-1 border-secondary border-opacity-25 border-xl-0 d-inline d-md-none d-xl-inline">
+          <h6 class="text-white">Let's keep in touch</h6>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control border-secondary" placeholder="enter your email address">
+            <button class="btn btn-dark" type="button"><i class="bi bi-arrow-right"></i></button>
+          </div>
+          <div class="d-flex gap-4 social-icons ">
+            <a href="#" class="fs-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="fs-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="fs-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="fs-3"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Box -->
+      <div class="row mt-4 pt-4 bottom-box text-center border border-1 border-secondary border-opacity-25 border-xl-0">
+        <div class="col-md-4 mb-3">
+          <p><i class="bi bi-telephone me-2"></i>Didn't find what you were looking for? <a href="#">Contact Us</a></p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <p><i class="bi bi-emoji-smile me-2"></i>How can we help you today? <a href="#">Help Center</a></p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <p><i class="bi bi-chat-dots me-2"></i>We'd love to hear what you think! <a href="#">Give Feedback</a></p>
+        </div>
+      </div>
+
+      <div class="text-center mt-3">
+        <small>Copyright © Merto. All Rights Reserved</small>
+      </div>
+    </div>
+  </footer>
+
+    <!-- زر العودة للأعلى -->
+  <button id="scrollTopBtn" 
+          class="btn btn-dark rounded-3 shadow position-fixed bottom-0 end-0 m-3 d-none" 
+          aria-label="العودة للأعلى">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/script/script.js"></script>
+</body>
+</html>
