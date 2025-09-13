@@ -1,0 +1,24 @@
+.color-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.card .hover-actions {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn.active{
+  border:2px solid black !important;
+}
+.bg-sm-secondary-md-light {
+  background-color: inherit; /* رمادي */
+}
+
+@media (max-width: 568px) {
+  .bg-sm-secondary-md-light {
+    background-color:rgba(236, 236, 236, 0.788); /* فاتح */
+    padding-left: 2%;
+  }
+}

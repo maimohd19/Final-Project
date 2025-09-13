@@ -1,0 +1,15 @@
+form input , textarea{
+    background-color: rgba(235, 238, 240, 1) !important;
+}
+.store-img:hover {
+  filter: saturate(50%);
+}
+
+.store-img {
+  transition: 0.3s ease;
+}
+@media (min-width: 992px){
+    .w-lg-75{ 
+        width: 75% !important; 
+    }
+}
